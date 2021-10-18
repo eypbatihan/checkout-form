@@ -5,19 +5,20 @@ html,body{
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    
 }
 .head h1{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-    margin: 20px 0;
+    margin: 2rem 0;
     color: black;
 }
 .container-main{
     display:flex;
     font-size: 12px; 
-    margin-left: 5%; 
+    margin-left: 1rem; 
 }
 .container-main--form{ 
     width: 45%;
@@ -43,6 +44,7 @@ form p{
 }
 .country{
     width: 30%;
+   
 }
 .post{
     width: 60%;
@@ -142,4 +144,16 @@ strong{
     margin: 0;
     padding: 10px 0;
     word-spacing: 180px;
+}
+input[type=text]:focus{
+    outline: none;
+}
+input[type=email]:focus{
+    outline: none;
+}
+input[type=tel]:focus{
+    outline: none;
+}
+#country:focus{
+    outline: none;
 }
